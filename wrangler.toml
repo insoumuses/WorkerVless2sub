@@ -3,3 +3,11 @@ name = 'vless2'
 main = "_worker.js"
 compatibility_date = "2026-04-23"
 keep_vars = true
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
